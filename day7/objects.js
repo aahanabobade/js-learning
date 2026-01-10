@@ -1,3 +1,5 @@
+//define object
+
 var user = {
     firstName : "aahana",
     lastName: "Bobade",
@@ -6,8 +8,13 @@ var user = {
     fbsignin : true,
 };
 
+
 console.log(user.firstName)
+
 console.log(user["lastName"])
-user.logincount=77
+
+user.logincount=77          //modify value
+
 console.log(user)
+
 console.table(user)
