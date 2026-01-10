@@ -1,3 +1,5 @@
+//define object
+
 var user = {
     firstName : "aahana",
     lastName: "Bobade",
@@ -5,7 +7,7 @@ var user = {
     logincount: 23,
     fbsignin : true,
     courselist: [],
-    buycourse: function(coursename){
+    buycourse: function(coursename){        //defining method in object
         this.courselist.push(coursename);
 
     },
