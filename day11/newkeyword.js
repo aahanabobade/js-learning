@@ -8,3 +8,6 @@ var User = function(firstName,courseCount){
 
 var aahana = new User("aahana",2)
 console.log(aahana)
+
+var chinu = new User("chinu",8)
+console.log(chinu)
