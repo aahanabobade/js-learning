@@ -6,6 +6,8 @@ var User = function(firstName,courseCount){
     }
 }
 
+//proto
+
 User.prototype.getFirstname = function(){
     console.log(`your name is : ${this.firstName}`)
 }
