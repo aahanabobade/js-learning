@@ -6,8 +6,14 @@ var User = function(firstName,courseCount){
     }
 }
 
+User.prototype.getFirstname = function(){
+    console.log(`your name is : ${this.firstName}`)
+}
+
 var aahana = new User("aahana",2)
-console.log(aahana)
+aahana.getCoursecount()
+aahana.getFirstname()
+
 
 var chinu = new User("chinu",8)
-console.log(chinu)
+chinu.getCoursecount()
